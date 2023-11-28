@@ -1,0 +1,1223 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+  *{
+    margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+    }
+    
+    body{
+    font-family: "poppins", sans-serif;
+    
+    
+    }
+    a, a:hover{
+    text-decoration:none ;    
+    
+    }
+    .top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+    background-color: blue;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    top: 50px;
+   
+    }
+    .top-bar span{
+    color: white;
+    }
+    .top-bar ul{
+    list-style: none;
+    display:flex;
+    }
+    .top-bar li{
+    margin: 0px 5px;
+    }
+    .top-bar a{
+    color: aliceblue;
+    }
+    .top-bar a:hover{
+    color: blue;
+    }
+    nav{
+    background: red;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    top: 0;
+    }
+    .nav a{
+    color: aqua;
+    }
+    
+    .nav a:hover{
+    color: chocolate;
+    }
+    
+    .logo{
+    flex: 1;
+    }
+    .logo a{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    }
+    .log a:hover{
+    color: #fff;
+    }
+    .logo img{
+    width: 40px;
+    margin-right: 10px;
+    }
+    .menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    }
+    .menu li{
+    padding: 10px 20px;
+    font-size: 20px;
+    }
+    .toggle{
+    font-size: 30px;
+    display: none;
+    }
+    
+   
+
+
+
+    
+/* -----------------section 1---------------------------------- */
+.vis{
+background-color: darkgrey;
+display: flex;
+justify-content: center;
+max-width:2100px;
+height: 350px;
+
+
+}
+
+.viss{
+justify-content: center;
+width: 700px;
+}
+.viss img{
+width: 100%;
+height: 220px;
+margin-top: 110px;
+
+}
+.pest{
+justify-content: space-between;
+color: #ef4b3f;
+display: flex;
+ font-size: 17px;
+}
+.flesh{
+margin:  0px 30px;
+}
+.sunday{
+padding-right:35px;
+}
+/* --------------pest------------------ */
+.fast{
+justify-content: space-around;
+display: flex;
+margin-top: 90px;
+}
+.sun{
+color: red;
+}
+.fas{
+color: green;
+}
+ h1h1{
+  font-weight:bolder;
+ color: #ef4b3f;
+}
+ .flat{
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ }
+ .up{
+  max-width: 900px;
+ font-size: 22px;
+ background-color: ghostwhite;
+ color: #222;
+ margin: 5px;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ line-height: 1.5;
+ }
+ .pen{
+ color: whitesmoke;
+ line-height: 1.5;
+ font-size: 20px;
+ }
+ .pen-pen{
+ margin-right: 20px;
+ color: #e74c3c;
+ }
+ .from-from{
+   max-width: 2100px;
+    height: 400px;
+    text-decoration: underline;
+    background-color: #ef4b3f;
+   justify-content: center;
+   flex-wrap: wrap;
+   margin-top: 30px;
+    }
+    /* --------from------------- */
+    .from{
+    background-color: gray;
+    color: aliceblue;
+    text-align: center;
+    }
+    .sample{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    }
+    .sampl-1{
+    max-width: 600px;
+    flex-wrap: wrap;
+    }
+    .sample-1 img{
+    width: 100%;
+    height: 300px;
+    padding: 8px;
+    }
+    /* ----------from---------------- */
+.flat-1{
+width:900px;
+margin:12px;
+}
+.flat-1 img{
+width: 100%;
+height:480px;
+padding: 5px;
+padding: 5px;
+}
+.h1h1{
+padding-left:6px;
+}
+.flat-2{
+max-width:500px;
+margin:14px;
+position: relative;
+}
+.flat-2 img{
+width: 100%;
+height: 350px;
+}
+.com-com{
+color: whitesmoke;
+}
+/* ---------------sample-------------------------- */
+
+.cube-1{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: spin 35s infinite linear;
+  margin: 40px;
+  justify-content: center;
+  display: flex;
+  
+  }
+  .ttt{
+    display: flex;
+    background-color: #34495e;
+    color: white;
+    justify-content: center;
+  }
+  .cube{
+  justify-content: center;
+  display: flex;
+  background-color: gainsboro;
+  flex-wrap: wrap;
+  height: 300px;
+  
+  }
+  .face-1{
+  position: absolute;
+  width:300px;
+  height:200px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #fff;
+  display: flex;
+  background-color: #c0392b;
+  } 
+  .front{transform: rotateY(0deg) translateZ(150px); background: linear-gradient(45deg, #3498db, #34495e);}
+  .back{transform: rotateY(180deg) translateZ(150px); background: linear-gradient(45deg, #e74c3c, #c0392b);}
+  .left{transform: rotateY(-90deg) translateZ(150px); background: linear-gradient(45deg, #27ae60, #229954);}
+  .right{transform: rotateY(90deg) translateZ(150px); background: linear-gradient(45deg, #f1c40f, #f39c12);}
+  .top{transform: rotateX(-90deg) translateZ(150px); background: linear-gradient(45deg, #9b59b6, #8e44ad);}
+  .bottom{transform: rotateX(90deg) translateZ(150px); background: linear-gradient(45deg, #e67e22, #d35400);}
+  
+  @keyframes spin {
+  100%{ transform:rotateX(0deg) rotateY(460deg);}
+  0%{ transform: rotateX(0deg) rotateY(0deg);}     
+  
+  }
+
+/* -----------------sample-------------------------------- */
+
+.flat-5{
+  max-width:500px;
+  margin: 4px;
+ 
+  }
+  .flat-5 img{
+  width: 100%;
+  height: 350px;
+  }
+  .flath3{
+  max-width:510px;
+  margin:17px;
+  line-height:1.5;
+  font-size:20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #222;
+  }
+  .flath4{
+    max-width:500px;
+    line-height: 1.5;
+    margin:14px;
+    font-size:20px;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #222;
+   
+    }
+  /* ---------make----------- */
+  .make{
+  margin-left: 25px;
+  color: greenyellow;
+  }
+  .book{
+  margin-left: 25px;
+  color: palegreen;
+  }
+  /* -------------------- */
+    href{
+    color: none;
+    }
+    .top{
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    right: 10px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+    font-family: cursive;
+    font-size: 22px;
+    color: gainsboro;
+    }
+    .flat-5
+    {
+    position: relative;
+    color: aliceblue;
+    }
+    .top-1{
+    max-width: 400px;
+    margin-bottom:23px;
+    margin-left: 15px;
+    }
+    .can{
+    color: #ef4b3f;
+    }
+    .Nig{
+    color: blue;
+    margin-bottom:23px;
+    margin-left: 15px;
+    }
+    .can{
+      color: blue;
+      margin-bottom:23px;
+      margin-left: 15px;
+      }
+    .h1-h1{
+    max-width:500px;
+    margin:20px;
+    color:blueviolet;
+   font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: inherit;
+    
+    padding-left: 12px;
+    color: #333;
+    }
+    .p-nigeria{
+     font-size:23px;
+     line-height: 1.2;
+     color: white;
+     color: #fff;
+    }
+     p-canada{
+      font-size:25px;
+      line-height: 1.2;
+    }
+    .h1-flat{
+      max-width:515px;
+    padding-left:30px;
+    color: #efab3f;
+    font-size: 26px;
+    line-height: 1.3;
+    border-radius: 15px;
+    }
+    .adv{
+      background-color: darkgrey;
+      display: flex;
+      justify-content: center;
+      }
+      .adv1{
+      justify-content: center;
+      width: 700px;
+      }
+      .adv1 img{
+      width: 100%;
+      height: 200px;
+      }
+
+    .pex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+    }
+    .pex-1{
+    width: 500px;
+    margin: 10px;
+    }
+    .pex-1 img{
+    width: 100%;
+    height: 400px;
+    }
+    .pex-2{
+      width: 500px;
+      margin: 10px;
+      }
+      .pex-2 img{
+      width: 100%;
+      height: 400px;
+      }
+      .pex-3{
+        width: 500px;
+        margin: 10px;
+        }
+        .pex-3 img{
+        width: 100%;
+        height: 400px;
+        }
+        .pex-4{
+         max-width: 500px;
+         margin: 10px;
+        }
+        .pex-4 img{
+        width: 100%;
+        height: 400px;
+        }
+        .glo{
+        padding:0px 30px;
+        color: #ef4b3f;
+        width: 300px;
+        text-decoration: underline;
+        }
+        .pex-1{
+        position:relative;
+        color: #fff;
+        }
+        .com{ 
+          position: absolute;
+          bottom: 0;
+          left: 20px;
+          right: 10px;
+          margin-bottom: 10px;
+          line-height: 1.4;
+          z-index: auto;
+          }
+        .pex-2{
+          position:relative;
+          color: #fff;
+          }
+          
+          .pex-3{
+            position: relative;
+            color: #fff;
+            }
+            .uk{
+            color: darkorange;
+            }
+          
+          .usa{
+          color: fuchsia;
+          }
+        .spain{
+        color: palegreen;
+        }
+        .cup{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        }
+        .cup1{
+        max-width:800px;
+        justify-content: center;
+        padding-left:15px ;
+        padding-right: 15px;
+        }
+        .p-p{
+        font-size: 21px;
+        line-height: 1.5;
+        font-family: monospace,sans-serif;
+        color: black;
+        }
+        .hr-1{
+         color: #ef4b3f;
+         max-width: 760px;
+        }
+        .hr-2{
+          color: palegreen;
+          max-width: 760px;
+          
+         }
+         .hr-3{
+          color:blue;
+          max-width: 460px;
+          margin-left: 20px;
+         }
+         .span-1{
+         color: blue;
+         }
+         .span-2{
+          color: purple;
+          }
+          .span-3{
+            color: red;
+            }
+         .h1-3{
+         color: aqua;
+         margin: 5px;
+         }
+         .h1-2{
+          color: greenyellow;
+          margin: 5px;
+          }
+          .h1-3{
+          color: red;
+          margin: 5px;
+          }
+          .col{
+            font-family: cursive;
+           color: gainsboro;
+           font-size: 27px;
+          }
+        .cup2{
+          width: 710px;
+          margin: 10px;
+          }
+          .cup2 img{
+          width: 100%;
+          height: 370px;
+          }
+          .black-1{
+            font-size:20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: aliceblue;
+            line-height: 1.5;
+            color: #333;
+          }
+          .clas-1{
+          color: #ef4b3f;
+          }
+          .clas-2{
+            color: blue;
+            }
+            .clas-3{
+              color: palegreen;
+              }
+          .sid1{
+          display: flex;
+          }
+          .pp{
+          max-width: 330px;
+          margin-top: 20px;
+          font-size:18px;
+          color: black;
+          
+          }
+          .max{
+            max-width: 500px;
+            margin-top: 20px;
+            font-size:21px;
+            font-family: cursive;
+            color:whitesmoke;
+            }
+          .sidbysid{
+          max-width: 500px;
+          }
+          .sid1 img{
+          width:120px;
+          height:100px;
+          margin:7px 15px;
+          border-radius: 12px;
+          }
+          .fot{
+          background-color: black;
+          }
+          footer{
+          color: #fff;
+          text-align: center;
+          }
+          .white{
+          background-color:aliceblue;
+          }
+          .black{
+          background-color: aliceblue;
+          }
+          .latest{
+            padding:0px 30px;
+            color: purple;
+            width: 300px;
+            text-decoration: underline;
+            }
+            .hr{
+            color: gray;
+            }
+            span{
+            color: #ef4b3f;
+            }
+            .sp{
+            color: #ef4b3f;
+            }
+            .sunspan{
+            color: blue;
+            }
+            .flespan{
+            color: blue;
+            }
+
+        /* ---------section 1--------------------- */
+    .comb{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    }
+    .comb-1{
+    max-width: 1200px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .comb-1 img{
+    width: 100%;
+    height: 600px;
+    border-radius: 16px;
+    }
+    .net{
+    max-width: 1200px;
+    }
+    .net img{
+    width: 100%;
+    height: 500px;
+    border-radius: 50px;
+   
+    }
+
+    /* -------comb2------------- */
+    .comb-3{
+     max-width: 500px;
+     height: 600px;
+     color: #fff;
+     background-color: gray;
+    }
+    .online{
+      display: flex;
+      justify-content: center;
+      background-color: #ef4b3f;
+      color: azure;
+      margin-top: 50px;
+      }
+      /* -----mtn--------- */
+      .mtn{
+      max-width: 470px;
+      padding-left: 25px;
+      margin-top: 20px;
+      
+      }
+      .mtn img{
+      width: 100%;
+      height: 500px;
+      }
+    .comb-4{
+    max-width: 500px;
+    background-color: gainsboro;
+    
+    }
+    .comb-combh2{
+    color: #ef4b3f;
+    line-height: 1.6;
+    }
+     
+    .bb{
+    color: blue;
+    text-decoration: underline;
+    }
+    .vid{
+    max-width: 500px
+    
+
+    }
+    .vid video{
+    width: 100%;
+    height: 300px;
+    margin: 0px;
+    flex-wrap: wrap;
+    }
+    .vid-1{
+    display: flex;
+    justify-content: center;
+    background-color: #ef4b3f;
+    color: azure;
+    }
+    /* -----food---------- */
+    .food{
+      background-color: palegoldenrod;
+      display: flex;
+      justify-content: center;
+      }
+      .food-1{
+      justify-content: center;
+      width: 700px;
+      margin-top: 10px;
+      margin-bottom: 8px;
+      }
+      .food-1 img{
+      width: 100%;
+      height:300px;
+      }
+      /* --------fast------------ */
+      .fast{
+      
+      display: flex;
+      justify-content:space-between;
+      }
+      .fas{
+      margin-left:100px;
+      }
+      .sun{
+      margin-right: 100px;
+      }
+
+
+       /* --------fast------------ */
+
+     /* -------comb2------------- */
+    /* ---------fex-------------- */
+     .fax{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+     }
+     .fax-1{
+     max-width: 620px;
+     margin: 10px;
+     font-size:19px;
+     }
+     .fax-1 img{
+    width: 100%;
+    height: 400px;
+     }
+     .rel-1{
+      display: flex;
+     
+     background-color: blue;
+     color: pink;
+     justify-content: center;
+     }
+     .rel-2{
+      display: flex;
+     background-color: black;
+     color: #fff;
+     justify-content: center;
+     }
+     .rel-3{
+      display: flex;
+     background-color: red;
+     color: black;
+     justify-content: center;
+     }
+     .gon{
+    display: flex;
+    justify-content:center;
+    margin-top: 10px;
+    margin-left: 40px;
+     }
+     .p-fax{
+    font-size: 25px;
+    line-height: 1.5;
+     }
+     .h1-fax{
+    font-size:25px ;
+    line-height: 1.5;
+   
+     }
+     .comb-p{
+     line-height: 1.5;
+     }
+     .hr-3{
+      color: white;
+      
+      }
+   /* ---------fex-------------- */ 
+  
+   
+/* ------------------section 1---- */
+         
+ /* ---@media------------ */
+
+ @media screen and (max-width:600px){
+  .nav{
+ display: block;
+ position:relative ;
+ padding: 15px 20px;
+  }  
+  .menu{
+ margin-top: 15px;
+ display: none;
+ height: 285px;
+  }
+  .menu.active,.toggle{
+  display: block;
+  }
+  .toggle{
+ position: absolute;
+ top: 15px;
+ right: 20px;
+ 
+  }
+  .vis{
+  background-color:#fff;
+  }
+ }
+
+/* -----pex-------------- */
+@media screen  and ( max-width: 600px){
+/* -------page1------------- */
+
+.hr{
+display: none;
+}
+ .h1h1{
+ max-width: 490px;
+ margin-left: 5px;
+ margin-right: 10px;
+ 
+ }
+.pest{
+ max-width: 700px;
+ padding-left:4px;
+ padding-right: 4px;
+ font-size: 10px;
+ justify-content: space-between;
+ }
+ .flesh
+ {
+margin-left: 20px;
+margin-top:25px;
+font-size: 21px;
+ }
+ .sunday{
+ margin-top: 25px;
+ }
+ .flat-1{
+ max-width:1000px;
+ padding-left:4px;
+ padding-right: 4px;
+ }
+ .flat-1 img{
+ width: 100%;
+ height: 300px;
+ }
+ .up{
+ max-width: 450px;
+ padding-left:10px;
+ padding-right: 10px;
+ }
+
+ .flat-2{
+  max-width: 100px;
+  padding-left:10px;
+  padding-right:10px;
+  }
+  .flat-2 img{
+  width: 100%;
+  height: 320px;
+
+  }
+  com{
+  display: none;
+  display: flex;
+  }
+  .flat-5{
+    max-width: 450px;
+    padding-left:10px;
+    padding-right: 10px;
+    }
+    .flat-5 img{
+    width: 100%;
+    height: 300px;
+    }
+  .h1-flat{
+  max-width: 440px;
+  color: purple;
+  width: 100%;
+  
+  margin-bottom: 20px;
+  }
+  .flath3{
+  max-width: 1200px;
+  padding-left:10px ;
+  padding-right: 10px;
+  display: none;
+  }
+  .flath4{
+  display: none;
+  color: #27ae60;
+  }
+  .hr-3{
+    display: active;
+    color: black;
+    }
+  .top-1{
+  max-width: 300px;
+  }
+  .max{
+  display: none;
+  }
+  .pex-1{
+    max-width: 450px;
+    padding-left:10px;
+    padding-right: 10px;
+    }
+    .pex-1 img{
+    width: 100%;
+    height: 300px;
+    }
+    .pex-2{
+      max-width: 450px;
+      padding-left:10px;
+      padding-right: 10px;
+      }
+      .pex-2 img{
+      width: 100%;
+      height: 300px;
+      }
+      .pex-3{
+        max-width: 450px;
+        padding-left:10px;
+        padding-right: 10px;
+        }
+        .pex-3 img{
+        width: 100%;
+        height: 300px;
+        }
+        .flat-4{
+          max-width: 450px;
+          padding-left:10px;
+          padding-right: 10px;
+          }
+          .flat-4 img{
+          width: 100%;
+          height: 300px;
+          } 
+          .latest{
+              padding:0px 30px;
+              color: purple;
+              width: 300px;
+              text-decoration: underline;
+              margin-top: 20px; 
+            } 
+            .cup2{
+            max-width: 450px;
+            padding-left:10px;
+            padding-right: 10px;
+            }
+            .cup2 img{
+            width: 100%;
+            height: 300px;
+            } 
+            .span-1{
+            padding-right: 10px;
+            color: blue;
+            } 
+            .h1-1{
+              padding-right: 20px;
+              color: #ef4b3f;
+            }
+            .span-2{
+              padding-left: 5px;
+              } 
+              .h1-2{
+                padding-left: 10px;
+              }
+              .span-3{
+                padding-left: 5px;
+                } 
+                .h1-3{
+                  padding-left: 10px;
+                }
+                .black{
+                line-height: 1;
+                }
+                .black-1{
+                font-size: 23px;
+                display: none;
+                }
+                sidbysid{
+                max-width: 500px;
+                }
+                sid1{
+                max-width: 200px;
+                margin: 5px;
+                }
+                sid1 img{
+                width: 70%;
+                height: 100px;
+                  }
+                  .pp{
+                  max-width: 400px;
+                  font-size: 17px;
+                  }
+                 .food-food{
+                  display:none;
+                  justify-content: center;
+                  margin-bottom: 20px;
+
+                  }
+                /* -----------net-------------------------- */
+                  .pen{
+                  display: flex;
+          
+                  }
+                 .pen-2{
+                 max-width: 450px;
+                margin-left: 10px;
+                margin-right: 10px;
+                 }
+                 .pen-2 img{
+                  width: 100%;
+                  height: 200px;
+                 }
+                    .fax-1{
+                      max-width: 450px;
+                      margin-left: 10px;
+                      margin-right: 10px; 
+                      margin-top: 30px; 
+                    }
+                    .fax-1 img{
+                      width: 100%;
+                      height: 200px;
+                     padding-right:6px;
+                    }
+                    .h1-fax{
+                      max-width: 380px;
+                      padding-left: 10px;
+                      padding-right: 10px;
+                     
+                    }
+                    .p-fax{
+                      max-width: 400px;
+                      padding-left: 10px;
+                      padding-right: 10px;
+                      line-height: 1.3;
+                    }
+                    .h1-fax{
+                      max-width: 400px;
+                      padding-left: 10px;
+                      padding-right: 10px;
+                     
+                    }
+                   .gon{
+                   display: flex;
+                   justify-content: center;
+                   }
+
+                    /* ---------pen-3------------------ */
+                    .pen-3{
+                      max-width: 400px;
+                    }
+                    .pen-3 img{
+                      width: 100%;
+                      height: 300px;
+                     padding-right:6px;
+                     padding-left: 6px;
+                    }
+                    .joke{
+                    padding-left: 6px;
+                    padding-right: 6px;
+                    line-height: 1,4;
+                    }
+                    .day{
+                      padding-left: 6px;
+                      padding-right: 6px;
+                      }
+                    .rel-1{
+                     margin-right: 5px;
+                     margin-right: 5px;
+                    }
+                    .rel-2{
+                      margin-right: 5px;
+                      margin-right: 5px;
+                     }
+                     .rel-3{
+                      margin-right: 5px;
+                      margin-right: 5px;
+                     }  
+                     .h1-m{
+                      max-width: 380px;
+                      margin-left:7px;
+                     } 
+                     .appeal{
+                     text-align: unset;
+                     }
+                     .joke{
+                      text-align: unset;
+                      }
+                      .p-fax{
+                      text-align: unset;
+                      }
+                     /*---------comb---------------------  */
+                     .head{
+                     margin-left: 10px;
+                     margin-bottom: 20px;
+                     }
+                     .comb-1{
+                      max-width: 670px;
+                      padding-left:8px;
+                      padding-right: 10px;
+                      }
+                      .comb-1 img{
+                      width: 100%;
+                      height: 270px;
+                      }
+                      .comb-3{
+                        max-width: 700px;
+                        padding-left:8px;
+                        padding-right: 10px;
+                        height: 400px;
+                        
+                        }
+                        .fast{
+                        justify-content: center;
+                        }
+                        comb-3 img{
+                        width: 100%;
+                        height: 270px;
+                        }
+                        
+                        .mtn{
+                          max-width: 700px;
+                          padding-left:8px;
+                          padding-right: 10px;
+                          }
+                          .mtn img{
+                          width: 100%;
+                          height: 320px;
+                          }
+                          .vid-1{
+                          background-color: blueviolet;
+                          margin-top: 40px;
+                          }
+                           .vid{
+                           max-width: 700px;
+                            padding-left:8px;
+                            padding-right: 10px;
+                            margin-top: 5px;
+                            }
+                            .vid video{
+                            width: 100%;
+                            height: auto;
+                            
+                            }
+                           
+                            .flat{
+                            margin: 0px;
+                            }
+                            .flat-2{
+                              max-width: 700px;
+                              padding-left:8px;
+                              padding-right: 10px;
+                              }
+                              .flat-2 img{
+                              width: 100%;
+                              height: 300px;
+                              }
+                              .fax-1{
+                                max-width: 700px;
+                                padding-left:8px;
+                                padding-right: 10px;
+                                }
+                                .fax-1 img{
+                                width: 100%;
+                                height: 300px;
+                                }
+                                .comb-5{
+                                  max-width: 700px;
+                                  padding-left:8px;
+                                  padding-right: 10px;
+                                  
+                                }
+                                .comb-combh2{
+                                font-size: 25px;
+                                }
+                                .comb-combh3{
+                                line-height: 1.5;
+                                font-size: 21px;
+                                }
+                                .gon{
+                                margin-top: 20px;
+                                }
+                                .fax-1{
+                                margin-top: 0px;
+                                }
+                                /* ---------------------------------- */
+                                .p-p{
+                                display: none;
+                                }
+                                .up{
+                                display: none;
+                                }
+                                .hr-3{
+                                max-width: 700px;
+                                color: gainsboro;
+                                  
+                                  }
+                                /* ----------------------------------------- */
+                              /*---------comb---------  */
+                              } 
+
+ 
+
+       
+      
+    
